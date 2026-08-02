@@ -32,6 +32,11 @@ computer_select = random.choice(player)
 #
 # print(player[user_select])
 
+#
+# print(computer_select > user_select)
+
+
+
 if player[user_select] == player[0] and computer_select == player[2]:
     print("✊ Rock beats Scissors")
     print(f"You chose {player[user_select]}")
